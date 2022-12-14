@@ -48,7 +48,7 @@ if(amysBirthYear === brittanisBirthYear) {
 }
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
+let temperature = 75;
 let rain = true;
 
 /*
@@ -57,7 +57,19 @@ let rain = true;
 */
 
 //CODE HERE
-
+if (temperature >= 80 && rain === true) {
+  console.log("Wear a t-shirt and take an umbrella.");
+} else if (60 < temperature < 80 && rain === true) {
+  console.log("wear a rain-jacket and take an umbrella.");
+} else if (temperature <= 60 && rain === true) {
+  console.log("Wear a jacket and take an umbrella.")
+} else if (temperature >= 80 && rain === false) {
+  console.log("Wear a t-shirt and don't take an umbrella.");
+} else if (60 < temperature < 80 && rain === false) {
+  console.log("wear a rain-jacket and don't take an umbrella.");
+} else if (temperature <= 60 && rain === false) {
+  console.log("Wear a jacket and don't take an umbrella.")
+}
 ////////// PROBLEM 5 //////////
 
 /*
