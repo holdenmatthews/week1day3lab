@@ -87,7 +87,9 @@ for (let i = 0; i < 10; i++) {
 */
 
 //CODE HERE
-
+for (let x = 1; x <= 10; x++) {
+  console.log(x);
+}
 ////////// PROBLEM 7 //////////
 
 /*
